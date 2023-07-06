@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Expression Validation App</title>
+  <link rel="stylesheet" type="text/css" href="/css folder/style.css">
+</head>
+<body>
+  <h1>Expression Validation App</h1>
+
+  <div id="input-container">
+    <label for="expression-select">Select Expression Type:</label>
+    <select id="expression-select">
+      <option value="firstname">First Name</option>
+      <option value="lastname">Last Name</option>
+      <option value="email">Email</option>
+      <option value="phone">Phone Number</option>
+      <option value="postcode">Post Code</option>
+      <option value="gender">Gender</option>
+      <!-- Add more options if needed -->
+    </select>
+
+    <button onclick="validateExpression()">Validate</button>
+  </div>
+
+  <div id="result"></div>
+
+  <script src="/js folder/script.js"></script>
+</body>
+</html>
